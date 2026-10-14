@@ -1,0 +1,17 @@
+# Supported: 64-bit CPython 3.11 or 3.12 on Windows 10 / 11.
+PySide6==6.8.3
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+# Keep MediaPipe's broad transitive constraints reproducible on Python 3.11/3.12.
+jax==0.4.35
+jaxlib==0.4.35
+matplotlib==3.9.4
+scipy==1.14.1
+protobuf==4.25.6
+pycaw==20240210; sys_platform == 'win32'
+comtypes==1.4.10; sys_platform == 'win32'
+screen-brightness-control==0.24.2; sys_platform == 'win32'
+WMI==1.5.1; sys_platform == 'win32'
+pywin32==310; sys_platform == 'win32'
+pypiwin32==223; sys_platform == 'win32'

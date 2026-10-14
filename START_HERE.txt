@@ -1,0 +1,51 @@
+AURAFLOW 2.7.1 — ONE HANDS-FREE WORKSPACE
+
+1. Close the old app and extract this ZIP into a new folder.
+2. Use 64-bit Python 3.11 or 3.12 (3.13 remains unsupported by pinned dependencies).
+3. Double-click Start_AuraFlow.bat. Camera opens automatically.
+4. Click My hands. Enroll each hand separately with an open palm for about 4 seconds.
+5. Close enrollment. Show an open palm briefly to verify, then use any gesture.
+   Keep your hand in view. If tracking is lost, show the open palm again.
+   Existing 2.7 profiles still work; you do not need to enroll again.
+
+HAND FILTER: Enabled by default. Enroll both hands for all controls. All visible
+hands must verify first; palm tracking then allows fingers to curl freely.
+Uncertain tracking blocks controls. Profiles stay local across launches.
+My hands can re-enroll or forget profiles. Settings can change sensitivity or disable
+the filter. This is approximate geometry matching: similar hands can still pass,
+and your own hand may sometimes be rejected. It is not secure identity recognition.
+
+TWO-HAND ZOOM: pinch thumb/index on BOTH hands, then spread apart or bring together.
+TWO FISTS: reset zoom. TWO V SIGNS: screenshot. TWO PALMS: show desktop.
+LEFT THUMBS-UP ALONE: hold 0.9 seconds to pause/resume. Briefly close your visible hands after a hold action.
+
+Right pinky+pinch = volume; left = brightness.
+Right point/pinch = pointer/click. V sign = scroll.
+Left fist = play/pause; right fist = mute.
+Open-palm swipe = tracks; three-finger swipe = browser tabs.
+
+Settings are mouse-controlled. If labels are still reversed, enable Swap anatomical
+left/right labels. Windows must allow camera access; the app does not ask permission.
+See README.md for the full guide and compatibility notes.
+
+TABS: Raise index+middle+ring. Swipe right for next tab or left for previous,
+as seen in the preview. Make a loose fist for 0.25 seconds, then open your hand to repeat. Keep the
+browser focused. The full gesture guide is now under View all gestures.
+
+DESKTOP APPS: four fingers up, thumb tucked across palm; swipe right for Alt+Tab
+or left for Alt+Shift+Tab. Make a loose fist for 0.25 seconds, then open your hand to repeat.
+Three fingers = browser tabs. All five fingers open = music tracks.
+
+Right-hand pinch clicks cannot activate the pause gesture. Only left thumbs-up
+with no second hand visible can pause or resume.
+
+KEEP YOUR HAND IN VIEW: Swipe, briefly make a loose fist, then open for the next
+gesture. The reset fist does not mute or play/pause. No need to leave the frame.
+
+MINI CAMERA: click Mini camera on the dashboard for a small always-on-top live
+preview. Gesture controls keep running. Click Dashboard or close it to return.
+
+CLOSE APP: focus the desired app, raise ONLY your middle finger, tuck thumb and
+other fingers, and hold one hand steady for 1.2 seconds. Sends Alt+F4 once.
+Save prompts remain for you to handle. Brief fist, then reopen to reset in view.
+Use the Close app demo to practice safely. No close gesture runs while paused.
